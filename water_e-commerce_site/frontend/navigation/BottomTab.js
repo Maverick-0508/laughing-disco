@@ -6,7 +6,8 @@ import HomeScreen from '../screens/HomeScreen';
 import FavouritesScreen from '../screens/FavouritesScreen';
 import WalletScreen from '../screens/WalletScreen';
 import OrdersScreen from '../screens/OrdersScreen';
-import CartScreen from '../screens/CartScreen';
+import Cartscreen from '../screens/CartScreen';
+import ProfileScreen from '../screens/ProfileScreen';
 const Tab = createBottomTabNavigator();
 
 export default function BottomTabs() {
