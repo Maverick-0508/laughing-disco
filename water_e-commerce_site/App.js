@@ -3,6 +3,8 @@ import { NavigationContainer } from '@react-navigation/native';
 import LoginScreen from './frontend/LoginScreen';
 import BottomTabs from './navigation/BottomTabs';
 import { CartProvider } from './context/CartContext';
+import PaymentMethodsScreen from './screens/PaymentMethodsScreen';
+import AddressesScreen from './screens/AddressesScreen';
 
 export default function App() {
   const [isLoggedIn, setIsLoggedIn] = React.useState(false);
