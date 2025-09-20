@@ -6,7 +6,7 @@ import HomeScreen from '../screens/HomeScreen';
 import FavouritesScreen from '../screens/FavouritesScreen';
 import WalletScreen from '../screens/WalletScreen';
 import OrdersScreen from '../screens/OrdersScreen';
-
+import CartScreen from '../screens/CartScreen';
 const Tab = createBottomTabNavigator();
 
 export default function BottomTabs() {
@@ -32,6 +32,7 @@ export default function BottomTabs() {
       <Tab.Screen name="Favourites" component={FavouritesScreen} />
       <Tab.Screen name="Wallet" component={WalletScreen} />
       <Tab.Screen name="Orders" component={OrdersScreen} />
+      <Tab.Screen name="Cart" component={Cartscreen} />
     </Tab.Navigator>
   );
 }
